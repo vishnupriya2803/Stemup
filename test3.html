@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, initial-scale=1.0 ">
+    <title>Student Details</title>
+</head>
+<body bgcolor="coralred" style="font-family:'Times New Roman', Times, serif;">
+    <h2><center><i>Student Details form</i></center></h2>
+    <center><form><i>
+        <label for="studentName">Name:</label>
+        <input type="text" id="studentNam" placeholder="Enter your name" required><br><br>
+        <label for="fatherName">Father's Name:</label>
+        <input type="text" id="fatherName" placeholder="Enter your father name" required><br><br>
+        <label for="mail">MailID :</label>
+        <input type="mail" id="mail" placeholder="Enter your mail id" required><br><br>
+        <label for="password">Password :</label>
+        <input type="password" id="password" placeholder="Set up your password" required><br><br>
+        <label for="address">Address :</label>
+        <input type="textarea" id="address" placeholder="Enter your address"><br><br>
+        <label for="education">Education :</label><br>
+        <input type="radio" name="education"  value="undergraduate">Under graduate <br>
+        <input type="radio" name="education" value="graduate">  Graduate <br>
+        <input type="radio" name="education" value="postgraduate">post graduate <br><br>
+        <label for="phone">Contact Number :</label>
+        <input type="number" id="phone" placeholder="Enter your phone number" required><br><br>
+        <label for="dob">Date of birth: </label>
+        <input type="date" id="dob" required><br><br>
+        <label for="domain">Field of Interest :</label>
+        <select name="domain" id="domain">
+            <option>---select---</option>
+            <option value="frontend">Front End</option>
+            <option value="backend"> Back End</option>
+            <option value="testing">Testing</option>
+            <option value="fullstack">Full Stack</option>
+        </select><br><br>
+        <label for="lang">Language :</label><br>
+        <input type="checkbox" id="lang" value="Java">Java
+        <input type="checkbox" id="lang" value="Python">Python
+        <input type="checkbox" id="lang" value="C">C
+        <input type="checkbox" id="lang" value="C++">C++ <br><br>
+        <button type="submit" style="background-color:blueviolet; color:white">Submit</button><br><br>
+        <button type="reset" style="background-color: blueviolet; color:white">Reset</button>
+    </i></form></center>
+</body>
+</html>
