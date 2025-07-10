@@ -1,0 +1,44 @@
+.body{
+    background-color: lavender;
+    /* opacity: 99% */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 50px 400px 10px 400px;
+}
+.diva{
+    margin: 90px 20px 10px 25px;
+    padding: 10px 5px 10px 5px;
+    box-shadow: 2px;
+    border-color: aqua;
+    /* object-position: center center; */
+    background-color: white;
+    /* justify-content: center; */
+    border-radius: 50px;
+    /* margin: 10px 200px 0px 200px; */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    
+}
+.imga{
+    /* padding-left: 100px; */
+    margin: 10px 80px 1px 150px;
+    border-style: none;
+    border-radius: 50%;
+    height: 131px;
+    width: 116px;
+}
+.h{
+    text-align: center;
+    justify-content: center;
+    color: blueviolet;
+    /* text-decoration: ; */
+    /* padding: 1px 10px 1px 10px; */
+}
+.p{
+    text-align: center;
+    justify-content: center;
+    /* padding: 1px 10px 1px 10px; */
+}
+.element{
+    justify-content: baseline;
+}
